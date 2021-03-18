@@ -10,7 +10,7 @@
 
 Language C
 
-* decompse a numerb
+* decompse a number
 
 ```c
 void decompose(double x, long *int_part, double *frac_part)
