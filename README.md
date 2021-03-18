@@ -17,7 +17,7 @@ void decompose(double x, long *int_part, double *frac_part)
 }
 ```
 
-x --> 3.1415926  
+x -->  
 int_part --> &i  
 frac_part --> &d  
 
