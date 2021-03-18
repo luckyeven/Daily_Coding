@@ -8,7 +8,10 @@
 ****
 ## Day 1
 
-* Language C
+Language C
+
+* decompse a numerb
+
 ```c
 void decompose(double x, long *int_part, double *frac_part)
 {
@@ -29,3 +32,18 @@ decompose(3.1415926,&i,&d);
 x --> 3.1415926  
 int_part --> 3  
 frac_part --> .1415926  
+
+* find max and min valu in an array
+ ```c
+ void max_min(int a [],int size, int *max, int *min)
+{
+  *max = *min = a[0];
+  for(int i = 1, i < size; i++){
+    if(a[i] < *main){
+      *min = a[i];
+    }else{
+      *max = a[i];
+    }
+  }  
+}
+ ```
