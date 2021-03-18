@@ -33,7 +33,7 @@ x --> 3.1415926
 int_part --> 3  
 frac_part --> .1415926  
 
-* find max and min valu in an array
+* find max and min value in an array
  ```c
  void max_min(int a [],int size, int *max, int *min)
 {
